@@ -1,2 +1,2 @@
-# Chekanov-A.M.
+# Chekanov-A.M
 U-224 group
