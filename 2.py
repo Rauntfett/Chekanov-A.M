@@ -1,3 +1,4 @@
+#Вариант 10
 import math
 x=float(input('x='))
 y=float(input('y='))
