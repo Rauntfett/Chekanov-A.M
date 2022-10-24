@@ -7,4 +7,3 @@ def swap():
         elif a[i] > 20:
             a[i] = 1
     print(a)
-    return a
