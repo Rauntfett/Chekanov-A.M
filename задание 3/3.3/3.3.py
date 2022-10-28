@@ -6,5 +6,5 @@ def time(n):
     minutes = n % 60
     time = hours, minutes
     return time
-hours, minutes = time(n)
-print(hours, ':',minutes)
+
+print(time(n))
