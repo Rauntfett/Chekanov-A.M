@@ -1,4 +1,4 @@
-def find_max_numbers_bigger_previous_in_row():
+def find_max_equals_numbers_in_row():
     max = 0
     count = 0
     b = 0
@@ -7,11 +7,11 @@ def find_max_numbers_bigger_previous_in_row():
         a = int(input('Введите число последовательности \n'))
         if a == 0:
             break
-        if a == b:
+        elif a == b:
             count += 1
             if count > max:
                 max = count
         b = a
     return max
 
-print(find_max_numbers_bigger_previous_in_row())
+print(find_max_equals_numbers_in_row())
