@@ -1,0 +1,6 @@
+file = open('ФИО_группа_vvod.txt', 'r')
+data_string = file.read()
+file.close()
+file = open('ФИО_группа_vivod.txt', 'a')
+file.write(data_string)
+file.close()
