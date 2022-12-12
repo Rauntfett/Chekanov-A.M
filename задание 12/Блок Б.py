@@ -7,7 +7,9 @@ def finder_second_max():
     if first_max < n:
         second_max = first_max
         first_max = n
-    if n == 0:
+    elif second_max < n:
+        second_max = n
+    elif n == 0:
         if second_max == 0:
             return ('Последовательность состоит из одних и тех же чисел, либо в последовательности только 0')
         else:
