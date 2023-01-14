@@ -13,4 +13,4 @@ dict_with_info = {
 }
 with open('Вывод_информации_с_гитхаба.txt', 'w') as info:
     for key, value in dict_with_info.items():
-        info.write("'{}':'{}'\n".format(key, value))
+        info.write(f"'{key}':'{value}'\n")
