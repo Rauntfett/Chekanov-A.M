@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class Main {
+  public static void main(String[] args) {
+    final int N = 2;
+    final int M = 3;
+      int[][] matrix = new int[N][M];
+      for(int i = 0; i < N; i++){
+        for(int j = 0; j < M; j++){
+          matrix[i][j] = 0 + (int) (Math.random() * 10);
+          System.out.print(matrix[i][j] + " ");
+        }
+        System.out.println();
+      }
+      int[][] transporedMatrix = new int[M][N];
+      for (int i = 0; i < N; i++){
+        for (int j = 0; j < M; j++){
+          transporedMatrix[j][i] = matrix[i][j];
+        }
+      }
+      
+        for (int i = 0; i < M; i++){
+         for (int j = 0; j < N; j++){
+          System.out.print(transporedMatrix[i][j] + " ");
+        }
+        System.out.println();
+      }
+  }
+}
